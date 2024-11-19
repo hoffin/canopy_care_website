@@ -18,9 +18,9 @@ Our expert arborists can assess your tree's health and advise whether it can be 
 
 Absolutely! We're happy to provide free, no-obligation estimates and consultations to discuss your tree care needs.
 
-## 4. ARE YOU FULLY INSURED AND CERTIFIED?
+## 4. ARE YOU FULLY INSURED?
 
- Yes, we are fully insured with £10 million public liability insurace and our team is certified, ensuring professional and secure services for your peace of mind.
+ Yes, we are fully insured with £10 million public liability insurace, ensuring professional and secure services for your peace of mind.
 
  * £10 million Public Liability Insurance
 
@@ -63,6 +63,24 @@ Yes, we provide comprehensive stump grinding and removal to restore the beauty a
 # 15. WHAT CAN I DO TO KEEP MY TREES IN GREAT SHAPE BETWEEN YOUR VISITS?
 
 We're happy to offer tips and advice on proper tree care and maintenance to keep your trees healthy between professional services!
+
+# 16. WHAT ACREDITATIONS DO YOUR TREE SURGEONS HAVE?
+
+Recognised by City and Guilds of London Institute
+NPTC Accredited
+
+* City & Guilds Level 3 Certificate of Competence in Aerial Tree Rigging
+* City & Guilds Level 3 Certificate of Competence in Aerial Tree Pruning
+* City & Guilds Level 3 Certificate of Competence in Assisted Felling
+* City & Guilds Level 2 Certificate of Competence in Felling
+* City & Guilds Level 2 Certificate of Competence in Using a Chainsaw from a Rope and Harness
+* City & Guilds Level 2 Certificate of Competence in Tree Climbing and Aerial Rescue
+* City & Guilds Level 2 Certificate of Competence in Chainsaw Maintenance and Cross-cutting
+
+# 17. WHAT AREA DO YOU COVER
+
+We opperate mainly in London and the South-East and are based near Guildford, Surrey.
+
 
 ---
 
