@@ -23,6 +23,8 @@ Shortname = ""
 # Enable Google Analytics by entering your tracking code
 id = ""
 
+defaultDescription = "Canopy Care"
+
 [menu]
 
 # Main menu
