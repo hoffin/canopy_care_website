@@ -1,5 +1,5 @@
 baseurl = "https://canopycare.uk" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "Universal"
+title = "Canopy Care"
 theme = "hugo-universal-theme"
 # themesDir = "../.."
 languageCode = "en-gb"
@@ -18,7 +18,7 @@ pluralizelisttitles = false
 [services]
 [services.disqus]
 # Enable comments by entering your Disqus shortname
-Shortname = "devcows"
+Shortname = ""
 [services.googleAnalytics]
 # Enable Google Analytics by entering your tracking code
 id = ""
@@ -367,15 +367,15 @@ id = ""
 
 [[menu.topbar]]
     weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+    name = "Instagram"
+    url = "http://instagram.com"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+    name = "LinkedIn"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 4
@@ -454,7 +454,7 @@ id = ""
     dropdown_mouse_over = false
 
     disabled_logo = false
-    logo_text = "Universal"
+    logo_text = "Canopy Care"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
