@@ -4,39 +4,65 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Welcome to our FAQ section, where you'll find answers to the most common questions about our services. We understand that tree work can raise many questions about safety, procedures, and regulations, which is why we've compiled this comprehensive guide to help you make informed decisions about your trees.
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+## 1. WHAT SERVICES DO YOU OFFER?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Tree pruning, felling, stump grinding, hedge trimming, emergency tree removal etc.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+## 2. HOW CAN I TELL IF A TREE NEEDS TO BE REMOVED OR CAN IT BE SAVED?
 
-## 2. WHAT ARE THE POSTAL RATES?
+Our expert arborists can assess your tree's health and advise whether it can be revitalized or if removal is the safest option.
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## 3. DO YOU OFFER FREE ESTIMATES OR CONSULTATIONS?
 
-## 3. DO YOU SEND OVERSEAS?
+Absolutely! We're happy to provide free, no-obligation estimates and consultations to discuss your tree care needs.
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## 4. ARE YOU FULLY INSURED AND CERTIFIED?
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+ Yes, we are fully insured with £10 million public liability insurace and our team is certified, ensuring professional and secure services for your peace of mind.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+ * £10 million Public Liability Insurance
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+# 5. WHAT SAFETY PRECAUTIONS DO YOU TAKE DURING TREE WORK?
 
-## 5. ANOTHER IMPORTANT QUESTION
+Safety is our top priority! We follow strict safety protocols and use advanced equipment to protect your property and our team during all operations.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+# 6. WILL YOU HANDLE CLEANUP AFTER THE JOB IS DONE?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Of course! We believe in leaving your property even better than we found it by thoroughly cleaning up all debris after our work is completed.
+
+# 7. DO YOU PROVIDE EMERGENCY SERVICES FOR STORM DAMAGE?
+Yes, we offer prompt emergency services to address any unexpected tree damage caused by storms or severe weather.
+
+# 8. HOW CAN YOUR SERVICES ENHANCE THE HEALTH AND APPEARANCE OF MY TREES?
+Our professional care promotes healthy growth, prevents diseases, and enhances the natural beauty of your trees, boosting your property's overall appeal!
+
+# 9. HOW DO YOU DETERMINE THE COST OF YOUR SERVICES, AND ARE THEY COMPETITIVELY PRICED?
+
+We offer fair and transparent pricing based on the specific services you need, and we're committed to providing excellent value for top-quality work.
+
+# 10. HOW LONG WILL THE TREE WORK TAKE, AND WILL IT DISRUPT MY DAILY ACTIVITIES?
+
+We work efficiently to complete projects promptly while minimizing any disruption to your daily routine.
+
+# 11. DO YOU OFFER ANY GUARANTEES OR WARRANTIES ON YOUR WORK?
+Yes, we stand by the quality of our services and offer guarantees to ensure your complete satisfaction.
+
+# 12. CAN YOU PROVIDE REFERENCES OR EXAMPLES OF YOUR PREVIOUS WORK?
+Certainly! We can share testimonials and showcase our past projects to demonstrate our commitment to excellence.
+
+# 13. WILL YOU HANDLE ANY NECESSARY PERMITS FOR TREE REMOVAL?
+
+We take care of all the required permits and comply with local regulations to make the process hassle-free for you.
+
+# 14. DO YOU OFFER STUMP GRINDING OR REMOVAL SERVICES?
+
+Yes, we provide comprehensive stump grinding and removal to restore the beauty and safety of your landscape.
+
+# 15. WHAT CAN I DO TO KEEP MY TREES IN GREAT SHAPE BETWEEN YOUR VISITS?
+
+We're happy to offer tips and advice on proper tree care and maintenance to keep your trees healthy between professional services!
 
 ---
 

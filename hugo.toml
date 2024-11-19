@@ -425,8 +425,8 @@ id = ""
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
+    formspree_action = "https://formspree.io/f/xjkvowyb"
+    contact_form_ajax = true
 
     # Formspree form supports Google reCAPTCHA Key (type v2).
     # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
@@ -442,11 +442,11 @@ id = ""
     #   5. change `enableRecaptchaInContactForm` is to true
     #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
     #
-    enableRecaptchaInContactForm = false
-    googleRecaptchaKey = "site_key_for_google_recaptcha"
+    enableRecaptchaInContactForm = true
+    googleRecaptchaKey = "6Lf4hIMqAAAAAFOnuNjeJOgNVyQPymwtAv-nkAjA"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2004, Canapy Care; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"

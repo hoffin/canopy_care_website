@@ -68,9 +68,5 @@
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/faq/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/ipsum/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</loc>
   </url>
 </urlset>

@@ -55,14 +55,7 @@
       <link>http://localhost:1313/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/faq/</guid>
-      <description>&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;&#xA;&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/1/01/01/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.&#xA;With Jekyll, something that looked like&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ images/&#xD;&#xA;        logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;should become&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/&#xD;&#xA;    ▾ static/&#xD;&#xA;        ▾ images/&#xD;&#xA;            logo.png&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome to our FAQ section, where you&amp;rsquo;ll find answers to the most common questions about our services. We understand that tree work can raise many questions about safety, procedures, and regulations, which is why we&amp;rsquo;ve compiled this comprehensive guide to help you make informed decisions about your trees.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-what-services-do-you-offer&#34;&gt;1. WHAT SERVICES DO YOU OFFER?&lt;/h2&gt;&#xA;&lt;p&gt;Tree pruning, felling, stump grinding, hedge trimming, emergency tree removal etc.&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-how-can-i-tell-if-a-tree-needs-to-be-removed-or-can-it-be-saved&#34;&gt;2. HOW CAN I TELL IF A TREE NEEDS TO BE REMOVED OR CAN IT BE SAVED?&lt;/h2&gt;&#xA;&lt;p&gt;Our expert arborists can assess your tree&amp;rsquo;s health and advise whether it can be revitalized or if removal is the safest option.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
