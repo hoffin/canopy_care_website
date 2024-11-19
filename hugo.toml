@@ -292,21 +292,21 @@ id = ""
     parent     = "menu.allpages"
     post       = 2
 
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
+#[[menu.main]]
+#    name       = "Shop"
+#    identifier = "section.ap-shop"
+#    url        = ""
+#    weight     = 1
+#    parent     = "menu.allpages"
+#    post       = 3
 
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
+#[[menu.main]]
+#    name       = "Shop - Order Process"
+#    identifier = "section.ap-shoporderprocess"
+#    url        = ""
+#    weight     = 2
+#    parent     = "menu.allpages"
+#    post       = 3
 
 [[menu.main]]
     name       = "Contact"
@@ -386,7 +386,7 @@ id = ""
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:hello@canopycare.uk"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -446,7 +446,7 @@ id = ""
     googleRecaptchaKey = "6Lf4hIMqAAAAAFOnuNjeJOgNVyQPymwtAv-nkAjA"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2004, Canapy Care; all rights reserved."
+    copyright = "Copyright (c) 2024, Canapy Care; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -459,11 +459,12 @@ id = ""
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
+    address = """<p class="text-uppercase"><strong>Canopy Care Ltd</strong>
+        <br>10 Heath Drive
+        <br>Sutton
+        <br>Surrey
         <br>England
+        <br>SM2 5RP
         <br>
         <strong>Great Britain</strong>
       </p>
@@ -475,9 +476,9 @@ id = ""
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@canopycare.uk</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contact us on 0333 050 7129 or enquiry@canopycare.uk</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+44333 050 7129" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@canopycare.uk" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
