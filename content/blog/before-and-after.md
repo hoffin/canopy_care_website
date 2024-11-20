@@ -1,10 +1,10 @@
 +++
 title = "Before and after"
-date = "2021-08-01T21:29:20+02:00"
-tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming","lorem","pseudo"]
+date = "2024-11-13T21:29:20+02:00"
+tags = ["hedge trimming", "felling"]
+categories = ["results"]
 banner = "img/before-after/4/6161eb113f78d-1633807121.jpg"
-authors = ["John Doe"]
+authors = ["Sarah Gwilliam"]
 +++
 
 Here are some before (on the left) and after (on the right) pictures of previous work done by our highly skilled and experienced workers.
@@ -23,7 +23,6 @@ Here are some before (on the left) and after (on the right) pictures of previous
 |   {{< figure src="/img/before-after/12/647b12b19f71b-1685787313.jpg" width="400">}} |   {{< figure src="/img/before-after/12/647b12b75ee13-1685787319.jpg" width="400">}}   |
 |   {{< figure src="/img/before-after/14/6493027f15a66-1687356031.jpg" width="400">}} |   {{< figure src="/img/before-after/14/6493028bc25cc-1687356043.jpg" width="400">}}   |
 |   {{< figure src="/img/before-after/15/6348460e070e9-1665680910.jpg" width="400">}} |   {{< figure src="/img/before-after/15/63484619db280-1665680921.jpg" width="400">}}   |
-|   {{< figure src="/img/before-after/3/6460f02689285-1684074534.jpg" width="400">}} |   {{< figure src="/img/before-after/3/6460f030102e5-1684074544.jpg" width="400">}}   |
 |   {{< figure src="/img/before-after/16/644929953f8c0-1682516373.jpg" width="400">}} |   {{< figure src="/img/before-after/16/644929aa30f10-1682516394.jpg" width="400">}}   |
 |   {{< figure src="/img/before-after/17/6348463c5f1d1-1665680956.jpg" width="400">}} |   {{< figure src="/img/before-after/17/63484648388fc-1665680968.jpg" width="400">}}   |
 | {{< figure src="/img/before-after/4/6161eb03cae18-1633807107.jpg" width="400">}} | {{< figure src="/img/before-after/4/6161eb174ed22-1633807127.jpg" width="400">}} |

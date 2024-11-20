@@ -529,9 +529,9 @@ id = ""
     enable = true
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
-    subtitle = "We have many before and after images"
-    link_url = "#"
-    link_text = "Check out the transformations"
+    subtitle = "See the incredible transformations we've achieved with our work."
+    link_url = "/blog/2021/08/01/before-and-after/"
+    link_text = "Check out our before and after gallery for inspiring results!"
 
 [params.clients]
     enable = false

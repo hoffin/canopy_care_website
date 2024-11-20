@@ -1,9 +1,9 @@
 +++
-title = "Spotting and Dealing with Oak Processionary Moth: A Gardener's Guide"
-date = "2015-09-17T13:47:08+02:00"
-tags = ["go"]
-categories = ["programming"]
-banner = "img/banners/banner-2.jpg"
+title = "Spotting and Dealing with Oak Processionary Moth"
+date = "2024-11-17T13:47:08+00:00"
+tags = ["Oak", "pests"]
+categories = ["Gardener's Guide"]
+banner = "img/banners/ThaumetopoeaProcessionea1.jpg"
 facebook_author = "GolangSociety"
 +++
 
@@ -14,6 +14,8 @@ Oak trees are a cherished feature in many gardens, offering shade and enhancing 
 ## **What Is the Oak Processionary Moth?**
 
 The **Oak Processionary Moth (_Thaumetopoea processionea_)** is an invasive species native to southern Europe but has spread to other regions, including parts of the UK. The moth's caterpillars are of particular concern due to their distinctive behavior and the health hazards they present.
+
+{{< figure src="/img/blogs/5371231-PPT (1).jpg" width="400">}}
 
 ### **Key Characteristics:**
 
@@ -40,6 +42,8 @@ The **Oak Processionary Moth (_Thaumetopoea processionea_)** is an invasive spec
 ---
 
 ## **How to Spot Oak Processionary Moth**
+
+{{< figure src="/img/banners/ThaumetopoeaProcessionea1.jpg" width="400">}}
 
 ### **Identifying the Caterpillars:**
 
