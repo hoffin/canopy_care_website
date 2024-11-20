@@ -3,11 +3,11 @@ title = "Before and after"
 date = "2021-08-01T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming","lorem","pseudo"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/before-after/4/6161eb113f78d-1633807121.jpg"
 authors = ["John Doe"]
 +++
 
-Here are some before and after pictures of previous work done by our skilled workers.
+Here are some before (on the left) and after (on the right) pictures of previous work done by our skilled workers.
 
 | Before | After  |
 |:------:|:------:|
