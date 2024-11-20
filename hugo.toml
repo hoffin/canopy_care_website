@@ -529,9 +529,9 @@ id = ""
     enable = true
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    subtitle = "We have many before and after images"
     link_url = "#"
-    link_text = "Check other homepages"
+    link_text = "Check out the transformations"
 
 [params.clients]
     enable = false
@@ -544,7 +544,7 @@ id = ""
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    subtitle = "Check out our blogs to find out intresting tips and tricks."
     hide_summary = true
 
 [params.footer.recent_posts]
