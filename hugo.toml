@@ -368,13 +368,13 @@ id = ""
 [[menu.topbar]]
     weight = 2
     name = "Instagram"
-    url = "http://instagram.com"
+    url = "http://instagram.com/canopy_care_ltd"
     pre = "<i class='fab fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "LinkedIn"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/"
     pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
@@ -386,7 +386,7 @@ id = ""
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@canopycare.uk"
+    url = "mailto:enquiry@canopycare.uk"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -530,7 +530,7 @@ id = ""
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "See the incredible transformations we've achieved with our work."
-    link_url = "/blog/2021/08/01/before-and-after/"
+    link_url = "/blog/2024/11/13/before-and-after/"
     link_text = "Check out our before and after gallery for inspiring results!"
 
 [params.clients]
