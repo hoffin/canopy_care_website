@@ -477,11 +477,7 @@ id = ""
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on 0333 050 7129 or enquiry@canopycare.uk</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+44333 050 7129" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@canopycare.uk" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    text = """<p class="hidden-sm hidden-xs">Contact us on 0333 050 7129 or enquiry@canopycare.uk</p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
