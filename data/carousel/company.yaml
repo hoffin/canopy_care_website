@@ -1,4 +1,12 @@
 weight: 1
 title: "Your Tree Care Specialists"
-description: "<p>Tree pruning, felling, stump grinding, hedge trimming, Tree surveys and inspections</p>"
+description: >
+  <ul class="list-style-none">
+    <li>Tree Planting</li>
+    <li>Tree surveys and inspections</li>     
+    <li>Tree pruning</li>
+    <li>Tree removal</li>
+    <li>stump grinding</li>
+    <li>hedge trimming</li>
+   </ul>
 image: "img/logo+name.png"
