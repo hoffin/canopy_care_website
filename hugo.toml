@@ -543,6 +543,17 @@ id = ""
     subtitle = "Check out our blogs to find out intresting tips and tricks."
     hide_summary = true
 
+[params.call_to_action]
+    enable = true
+    title = "Get in contact"
+    subtitle = "Request a Free Site Visit"
+    phone_text = "Call us anytime on"
+    phone_number = "0333 050 7129"
+    email_text = "Email us at"
+    email_address = "enquiry@canopycare.uk"
+    link_url = "/contact/"
+    link_text = "Request a free consultation"
+
 [params.footer.recent_posts]
     enable = true
 

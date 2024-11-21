@@ -4,7 +4,7 @@ date = "2024-11-19T11:18:20+02:00"
 tags = ["trees", "ivy"]
 categories = ["Gardener's Guide"]
 banner = "img/banners/ivy-1.jpg"
-authors = ["David Michael"]
+authors = ["Sarah Gwilliam"]
 +++
 
 Ivy can add a touch of charm and character to your garden with its lush, green foliage. However, when it starts climbing up your trees, it might be time to take action to ensure the health and longevity of your beloved arboreal friends. In this guide, we'll walk you through what to look out for, the tools you'll need, and when it's best to call in a professional.

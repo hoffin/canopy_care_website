@@ -4,7 +4,7 @@ date = "2024-11-20T13:49:20+00:00"
 tags = ["climate", "trees"]
 categories = ["Gardener's Guide"]
 banner = "img/banners/PXL_20240613_043658698.jpg"
-authors = ["David Michael"]
+authors = ["Sarah Gwilliam"]
 +++
 
 *As climate change reshapes our environment, UK gardeners face new challenges and opportunities. Understanding how these changes affect trees is crucial for cultivating a resilient and thriving garden. This guide explores the impacts of climate change on trees in the UK and offers practical advice on what to consider planting in the future.*

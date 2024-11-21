@@ -4,7 +4,8 @@ date = "2024-11-17T13:47:08+00:00"
 tags = ["Oak", "pests"]
 categories = ["Gardener's Guide"]
 banner = "img/banners/ThaumetopoeaProcessionea1.jpg"
-facebook_author = "GolangSociety"
+authors = ["Sarah Gwilliam"]
+facebook_author = ""
 +++
 
 Oak trees are a cherished feature in many gardens, offering shade and enhancing the landscape's beauty. However, they can sometimes become hosts to the Oak Processionary Moth (OPM), a pest that poses risks to both tree health and human well-being. This guide is designed for everyday gardeners, helping you identify OPM and understand how to respond safely and effectively.

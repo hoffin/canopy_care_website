@@ -1,0 +1,34 @@
+{{ if isset .Site.Params "call_to_action" }}
+{{ if .Site.Params.call_to_action.enable }}
+<section class="bar background-gray no-mb text-center">
+    <div class="container">
+        <div class="heading text-center">
+            <h2>{{ .Site.Params.call_to_action.title | markdownify }}</h2>
+        </div>
+        <p class="lead">
+          {{ .Site.Params.call_to_action.subtitle | markdownify }}
+        </p>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-uppercase">{{ .Site.Params.call_to_action.phone_number | markdownify }}</h3>
+                <h3 class="text">{{ .Site.Params.call_to_action.email_address | markdownify }}</h3>
+                <p class="text-center">
+                    {{ with .Site.Params.call_to_action.link_url }}
+                    <a href="{{ . }}" class="btn btn-template-main btn-lg">
+                    {{ end }}
+                        {{ with .Site.Params.call_to_action.link_text }}
+                        {{ . | markdownify }}
+                        {{ end }}
+                    {{ with .Site.Params.call_to_action.link_url }}
+                    </a>
+                    {{ end }}
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
