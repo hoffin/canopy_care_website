@@ -1,7 +1,10 @@
 weight: 2
-title: "Area"
+title: "Coverage"
 description: >
   <ul class="list-style-none">
-    <li>Servicing London and Surrey</li>
+    <li>Surrey</li>
+    <li>Hampshire</li>
+    <li>London</li>
+    <li>and the surrounding area</li>
   </ul>
-image: "img/carousel/template-easy-customize.png"
+image: "img/carousel/area.jpg"
