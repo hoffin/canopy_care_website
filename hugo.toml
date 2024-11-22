@@ -171,7 +171,7 @@ id = ""
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on 0333 050 7129 or enquiry@canopycare.uk</p>"""
+    text = """<p class="hidden-sm hidden-xs">Contact us on 01483 904 954 or enquiry@canopycare.uk</p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -242,7 +242,7 @@ id = ""
     title = "Contact our friendly team"
     subtitle = ""
     phone_text = "Call us anytime on"
-    phone_number = "0333 050 7129"
+    phone_number = "01483 904 954"
     email_text = "Email us at"
     email_address = "enquiry@canopycare.uk"
     link_url = "/contact/"
@@ -255,3 +255,8 @@ id = ""
   category = "categories"
   tag = "tags"
   author = "authors"
+
+[params.footer_map]
+#    map_url = "img/carousel/area.jpg"
+    map_title = "Coverage"
+    map_text = "<ul class='list-style-none'><li>Surrey, </li><li>Hampshire,</li><li>London, </li><li>and the surrounding area</li><li>from our base in Guildford, Surrey</li></ul>"
