@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch submodules
+          submodules: true  # Add this line to fetch submodules
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,12 +24,10 @@ jobs:
           hugo-version: '0.139.0'
       - name: Build
         run: hugo --minify
-      - name: Debug Build Output
-        run: ls -la ./public  # Debugging step to verify the output directory
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # Ensure this path matches the Hugo output directory
+          path: ./public
 
   deploy:
     needs: build
@@ -37,10 +35,6 @@ jobs:
     environment:
       name: github-pages
     steps:
-      - name: Delay for 10 seconds
-        run: sleep 10
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+        id: deployment
+        uses: actions/deploy-pages@v1
