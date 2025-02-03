@@ -25,6 +25,12 @@
 - id: contactMail
   translation: "Your Email"
 
+- id: phoneNumber
+  translation: "Your Phone Number"
+
+- id: JobAddress
+  translation: "Job Address"
+
 - id: contactMessage
   translation: "Your Message"
 
