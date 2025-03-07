@@ -68,14 +68,14 @@ id = "G-RDJLRWL8VE"
 [[menu.topbar]]
     weight = 3
     name = "LinkedIn"
-    url = "https://github.com/"
+    url = "https://www.linkedin.com/company/canopy-care-ltd"
     pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    name = "Facebook"
+    url = "https://www.facebook.com/61573082672116"
+    pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
     weight = 5
