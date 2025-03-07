@@ -21,7 +21,7 @@ pluralizelisttitles = false
 Shortname = ""
 [services.googleAnalytics]
 # Enable Google Analytics by entering your tracking code
-id = ""
+id = "G-RDJLRWL8VE"
 
 [menu]
 
@@ -91,7 +91,7 @@ id = ""
     defaultDescription = "Canopy Care - Professional Tree Surgery Services"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    facebook_site = "61573082672116" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
     default_sharing_image = "img/sharing-default.png"
 
