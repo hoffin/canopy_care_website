@@ -1,0 +1,28 @@
+{{ if .Site.Params.emergency_callout.enable }}
+<section class="bar background-gray no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.emergency_callout.title }}</h2>
+                </div>
+                <div class="emergency-callout">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="lead">{{ .Site.Params.emergency_callout.text | markdownify }}</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="cta-box emergency-cta">
+                                <p class="phone-number"><i class="fas fa-phone"></i> {{ .Site.Params.emergency_callout.phone }}</p>
+                                <a href="tel:{{ .Site.Params.emergency_callout.phone }}" class="btn btn-primary btn-lg">
+                                    {{ .Site.Params.emergency_callout.button_text }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} 

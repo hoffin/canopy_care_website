@@ -32,6 +32,63 @@ id = "G-RDJLRWL8VE"
     url        = "/"
     weight     = 1
 
+
+# Service menus are added in content->services md files themselves.
+
+#[[menu.main]]
+#    name       = "Services"
+#    identifier = "menu.services"
+#    url        = "/services/"
+#    weight     = 2
+
+#[[menu.main]]
+#    name       = "Tree Surgery"
+#    url        = "/services/tree-surgery/"
+#    weight     = 1
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Tree Removal"
+#    url        = "/services/tree-removal/"
+#    weight     = 2
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Stump Grinding"
+#    url        = "/services/stump-grinding/"
+#    weight     = 3
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Hedge Trimming"
+#    url        = "/services/hedge-trimming/"
+#    weight     = 4
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Emergency Services"
+#    url        = "/services/emergency-services/"
+#    weight     = 5
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Site Clearance"
+#    url        = "/services/site-clearance/"
+#    weight     = 6
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Garden Clearance"
+#    url        = "/services/garden-clearance/"
+#    weight     = 6
+#    parent     = "menu.services"
+
+#[[menu.main]]
+#    name       = "Tree Planting"
+#    url        = "/services/tree-planting/"
+#    weight     = 7
+#    parent     = "menu.services"
+
 [[menu.main]]
     name       = "Blog"
     identifier = "menu.blog"
@@ -101,7 +158,7 @@ id = "G-RDJLRWL8VE"
     latitude = "-12.043333"
     longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "green"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -117,7 +174,7 @@ id = "G-RDJLRWL8VE"
     # - test a dummy email yourself
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io endpoint url
+    # Enable the contact form by entering your Formspree.io endpoint url
     formspree_action = "https://formspree.io/f/xjkvowyb"
     contact_form_ajax = true
 
@@ -170,7 +227,7 @@ id = "G-RDJLRWL8VE"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Call us on 01483 904 954</p>"""
+    text = """<p class="hidden-xs">Call us on 01483 904 954</p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -205,6 +262,13 @@ id = "G-RDJLRWL8VE"
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
+
+[params.emergency_callout]
+    enable = true
+    title = "24/7 Emergency Tree Services"
+    text = "We provide rapid response for storm damage, fallen trees, and hazardous situations. Our emergency team is available 24 hours a day, 7 days a week to address dangerous situations quickly and safely."
+    phone = "01483 904 954"
+    button_text = "Call Now"
 
 [params.testimonials]
     enable = true

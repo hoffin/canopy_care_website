@@ -1,0 +1,71 @@
+<div class="container" id="contact">
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <section>
+
+                {{ .Content }}
+
+                {{ if isset .Site.Params "formspree_action" }}
+
+                {{ end }}
+
+                <div class="heading">
+                  <h3>{{ i18n "contactForm" }}</h3>
+                </div>
+
+                <div id="contact-message"></div>
+
+                <iframe src="https://tradehq.co.uk/canopycareuk/enquire" style="width:100%; height:1050px; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
+
+
+
+            </section>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <section>
+                <p>If you prefer to speak to us directly, please call us on the number below.</p>
+                <h3 class="text-uppercase">Phone number</h3>
+                <a href="tel:+441483904954" target="_blank" style="opacity: 1;"><h4>01483 904 954</h4></a>
+            </section>
+            <section>
+                <p>Or if you prefer to email us, you can use the following email address.</p>
+                <h3 class="text-uppercase">Email Address</h3>
+                <a href="mailto:enquiry@canopycare.uk" target="_blank" style="opacity: 1;"><h4>enquiry@canopycare.uk</h4></a>
+            </section>
+
+            {{ if isset .Site.Params "address" }}
+            <section>
+
+              <h3 class="text-uppercase"> {{ i18n "contactAddrTitle" }}</h3>
+
+                {{ .Site.Params.address | safeHTML }}
+
+            </section>
+
+            {{ end }}
+
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+
+
+{{ if 0 }}
+<!-- Google Map -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="heading">
+                <h3>Location</h3>
+            </div>
+            {{ partial "map.html" . }}
+        </div>
+    </div>
+</div> 
+{{ end}}
