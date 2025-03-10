@@ -15,52 +15,7 @@
 
                 <div id="contact-message"></div>
 
-                <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="{{ .Site.Params.formspree_action }}">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                              <label for="name">{{ i18n "contactName" }}</label>
-                                <input type="text" class="form-control" name="name" id="name" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="email">{{ i18n "contactMail" }}</label>
-                                <input type="email" autocomplete="email" class="form-control" name="email" id="email" required>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="PhoneNumber">{{ i18n "phoneNumber" }}</label>
-                                <input class="form-control" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="text">
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label for="JobAddress">{{ i18n "JobAddress" }}</label>
-                                <input class="form-control" id="JobAddress" maxlength="1000" name="JobAddress" type="text">
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              <label for="message">{{ i18n "contactMessage" }}</label>
-                                <textarea id="message" class="form-control" name="message" required></textarea>
-                            </div>
-                        </div>
-                        {{ if and .Site.Params.enableRecaptchaInContactForm .Site.Params.googleRecaptchaKey }}
-                        <div class="col-sm-12">
-                            <div class="g-recaptcha" data-sitekey="{{ .Site.Params.googleRecaptchaKey }}"></div>
-                            <br/>
-                        </div>
-                        {{ end }}
-
-                        <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="far fa-envelope"></i>{{ i18n "contactSend" }}</button>
-
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </form>
+                <iframe src="https://tradehq.co.uk/canopycareuk/enquire" style="width:100%; height:1050px; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
 
                 {{ end }}
 
