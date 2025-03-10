@@ -3,8 +3,8 @@ title = "Contact"
 id = "contact"
 +++
 
-# We are here to help you
+# Request a free no obligation quotation
 
-Are you curious about something? Would you like to enquire more about our services? Perhaps have a specific question or concern regarding work you would like doing? 
+You'll be pleasently supprised on how we compare with the rest.
 
-Please feel free to contact us.
+

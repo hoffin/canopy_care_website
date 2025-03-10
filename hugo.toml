@@ -46,10 +46,9 @@ id = "G-RDJLRWL8VE"
 
 [[menu.main]]
     identifier = "contact"
-    name       = "Contact"
+    name       = "Free Quote"
     url        = "/contact/"
     weight     = 7
-
 
 # Top bar social links menu
 
@@ -136,7 +135,7 @@ id = "G-RDJLRWL8VE"
     #   5. change `enableRecaptchaInContactForm` is to true
     #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
     #
-    enableRecaptchaInContactForm = true
+    enableRecaptchaInContactForm = false
     googleRecaptchaKey = "6Lf4hIMqAAAAAFOnuNjeJOgNVyQPymwtAv-nkAjA"
 
     about_us = "<p>Professional Tree Surgery Services in the South East of England From tree removal and pruning to stump grinding and emergency storm damage response, we offer expert tree care tailored to your needs. Fully insured, experienced, and committed to safety, we're here to help you maintain a healthy, safe, and beautiful outdoor space. Get in touch today for a free consultation!</p>"
@@ -171,7 +170,7 @@ id = "G-RDJLRWL8VE"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on 01483 904 954 or enquiry@canopycare.uk</p>"""
+    text = """<p class="hidden-sm hidden-xs">Call us on 01483 904 954</p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -195,7 +194,7 @@ id = "G-RDJLRWL8VE"
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more information take a look at the README.
-    enable = true
+    enable = false
     auto_play = true
     slide_speed = 200
     pagination_speed = 1000
@@ -238,7 +237,7 @@ id = "G-RDJLRWL8VE"
     hide_summary = true
 
 [params.call_to_action]
-    enable = true
+    enable = false
     title = "Contact our friendly team"
     subtitle = ""
     phone_text = "Call us anytime on"
