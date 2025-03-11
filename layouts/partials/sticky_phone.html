@@ -1,0 +1,87 @@
+<!-- Sticky Phone Button for Mobile -->
+<div class="sticky-phone-button d-md-none">
+    <a href="tel:01483 904954" class="btn btn-call">
+        <i class="fas fa-phone-alt"></i> Call Now: 01483 904 954
+    </a>
+</div>
+
+<style>
+    .sticky-phone-button {
+        position: fixed;
+        top: 80px; /* Position below navbar (adjust this value based on your navbar height) */
+        left: 0;
+        right: 0;
+        z-index: 998; /* Just below navbar but above other content */
+        text-align: center;
+        display: none; /* Hidden by default, shown with JS based on scroll */
+    }
+    
+    .sticky-phone-button .btn-call {
+        width: 100%;
+        padding: 12px 15px;
+        background: linear-gradient(135deg, #1a8849 0%, #25b565 100%);
+        color: white;
+        font-weight: bold;
+        border-radius: 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* Shadow pointing down */
+        transition: all 0.3s ease;
+    }
+    
+    .sticky-phone-button .btn-call:hover {
+        background: linear-gradient(135deg, #25b565 0%, #1a8849 100%);
+    }
+    
+    .sticky-phone-button.visible {
+        display: block;
+    }
+    
+    /* No need for body padding adjustment now */
+    body.sticky-phone-active {
+        /* No additional padding needed */
+    }
+    
+    @media (max-width: 767px) {
+        .sticky-phone-button {
+            display: block;
+        }
+        
+        /* Adjust position on smaller screens if navbar height changes */
+        @media (max-width: 420px) {
+            .sticky-phone-button {
+                top: 70px; /* Slightly smaller value for very small screens */
+            }
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var stickyPhone = document.querySelector('.sticky-phone-button');
+        var navbarHeight = document.querySelector('.navbar').offsetHeight;
+        
+        // Dynamically position based on actual navbar height
+        stickyPhone.style.top = navbarHeight + 'px';
+        
+        var scrollThreshold = 10; // Show after minimal scrolling
+        
+        function handleScroll() {
+            if (window.scrollY > scrollThreshold) {
+                stickyPhone.classList.add('visible');
+                document.body.classList.add('sticky-phone-active');
+            } else {
+                stickyPhone.classList.remove('visible');
+                document.body.classList.remove('sticky-phone-active');
+            }
+        }
+        
+        window.addEventListener('scroll', handleScroll);
+        
+        // Also update on window resize in case navbar height changes
+        window.addEventListener('resize', function() {
+            navbarHeight = document.querySelector('.navbar').offsetHeight;
+            stickyPhone.style.top = navbarHeight + 'px';
+        });
+        
+        handleScroll();
+    });
+</script> 
