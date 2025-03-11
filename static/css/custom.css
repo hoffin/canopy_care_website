@@ -86,5 +86,29 @@
 
 .map-container iframe {
     border: none;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 100%;
+    height: 450px;
+}
+
+/* Service Area Section */
+.service-area-section {
+    padding: 40px 0;
+    background-color: #f5f5f5;
+}
+
+.service-area-section .heading {
+    margin-bottom: 30px;
+}
+
+.service-area-section .heading h2 {
+    margin-bottom: 15px;
+}
+
+.service-area-section .heading p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
 }
