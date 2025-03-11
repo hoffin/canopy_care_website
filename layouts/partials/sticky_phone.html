@@ -1,6 +1,6 @@
 <!-- Sticky Phone Button for Mobile -->
-<div class="sticky-phone-button d-md-none">
-    <a href="tel:01483 904954" class="btn btn-call">
+<div class="sticky-phone-button d-none d-md-none">
+    <a href="tel:01483904954" class="btn btn-call">
         <i class="fas fa-phone-alt"></i> Call Now: 01483 904 954
     </a>
 </div>
@@ -13,7 +13,7 @@
         right: 0;
         z-index: 998; /* Just below navbar but above other content */
         text-align: center;
-        display: none; /* Hidden by default, shown with JS based on scroll */
+        display: none !important; /* Initially hidden, shown with JS */
     }
     
     .sticky-phone-button .btn-call {
@@ -31,18 +31,22 @@
         background: linear-gradient(135deg, #25b565 0%, #1a8849 100%);
     }
     
-    .sticky-phone-button.visible {
-        display: block;
+    /* Visible class no longer needed as we'll show it immediately */
+    .sticky-phone-button.mobile-active {
+        display: block !important;
     }
     
-    /* No need for body padding adjustment now */
-    body.sticky-phone-active {
-        /* No additional padding needed */
+    /* Only display on mobile screens */
+    @media (min-width: 768px) {
+        .sticky-phone-button {
+            display: none !important;
+        }
     }
     
     @media (max-width: 767px) {
-        .sticky-phone-button {
-            display: block;
+        /* No need for !important here as we'll handle display in JS */
+        .sticky-phone-button.mobile-active {
+            display: block !important;
         }
         
         /* Adjust position on smaller screens if navbar height changes */
@@ -56,32 +60,30 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Check if we're on mobile (same breakpoint where hamburger menu appears)
+        var isMobile = window.innerWidth < 768;
         var stickyPhone = document.querySelector('.sticky-phone-button');
-        var navbarHeight = document.querySelector('.navbar').offsetHeight;
         
-        // Dynamically position based on actual navbar height
-        stickyPhone.style.top = navbarHeight + 'px';
-        
-        var scrollThreshold = 10; // Show after minimal scrolling
-        
-        function handleScroll() {
-            if (window.scrollY > scrollThreshold) {
-                stickyPhone.classList.add('visible');
-                document.body.classList.add('sticky-phone-active');
+        function setupMobileButton() {
+            if (isMobile) {
+                var navbarHeight = document.querySelector('.navbar').offsetHeight;
+                // Dynamically position based on actual navbar height
+                stickyPhone.style.top = navbarHeight + 'px';
+                // Show the button on mobile
+                stickyPhone.classList.add('mobile-active');
             } else {
-                stickyPhone.classList.remove('visible');
-                document.body.classList.remove('sticky-phone-active');
+                // Hide on desktop
+                stickyPhone.classList.remove('mobile-active');
             }
         }
         
-        window.addEventListener('scroll', handleScroll);
+        // Initial setup
+        setupMobileButton();
         
-        // Also update on window resize in case navbar height changes
+        // Update on window resize
         window.addEventListener('resize', function() {
-            navbarHeight = document.querySelector('.navbar').offsetHeight;
-            stickyPhone.style.top = navbarHeight + 'px';
+            isMobile = window.innerWidth < 768;
+            setupMobileButton();
         });
-        
-        handleScroll();
     });
 </script> 
