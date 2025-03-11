@@ -226,7 +226,7 @@ id = "G-RDJLRWL8VE"
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-xs">Call us on 01483 904 954</p>"""
 
 # Enable and disable widgets for the right sidebar
@@ -262,6 +262,13 @@ id = "G-RDJLRWL8VE"
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
+
+[params.why_work_with_us]
+    enable = true
+    cols = 4
+    title = "Why Choose Us"
+    subtitle = "Choose Canopy Care for reliable, professional tree services"
+    # Items are defined in data/why_work_with_us/
 
 [params.emergency_callout]
     enable = true

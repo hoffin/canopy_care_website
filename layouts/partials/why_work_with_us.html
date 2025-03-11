@@ -1,0 +1,40 @@
+{{ if isset .Site.Params "why_work_with_us" }}
+{{ if .Site.Params.why_work_with_us.enable }}
+{{ if isset .Site.Data "why_work_with_us" }}
+{{ if gt (len .Site.Data.why_work_with_us) 0 }}
+<section class="bar background-primary no-mb" style="background: linear-gradient(135deg, #1a8849 0%, #25b565 100%);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2 style="color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.2); font-weight: bold; margin-bottom: 25px;">{{ .Site.Params.why_work_with_us.title }}</h2>
+                </div>
+
+                <p class="lead text-center" style="color: white; margin-bottom: 40px; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">
+                    {{ .Site.Params.why_work_with_us.subtitle }}
+                </p>
+
+                {{ $elements := default 4 .Site.Params.why_work_with_us.cols }}
+                {{ $items := sort .Site.Data.why_work_with_us "weight" }}
+
+                <div class="row equal-height" style="display: flex; flex-wrap: wrap;">
+                    {{ range $items }}
+                    <div class="col-md-{{ div 12 $elements }}" style="margin-bottom: 20px; display: flex;">
+                        <div class="box-simple" style="background: white; border-radius: 8px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); transition: all 0.3s ease; width: 100%; padding: 30px 25px; display: flex; flex-direction: column; transform: translateY(0);" onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 15px 30px rgba(0,0,0,0.15)';" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 8px 20px rgba(0,0,0,0.1)';">
+                            <div class="icon" style="background: linear-gradient(135deg, #1a8849 0%, #2ecc71 100%); width: 90px; height: 90px; border-radius: 50%; margin: 0 auto 25px auto; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); position: relative;">
+                                <i class="{{ .icon }}" style="color: white; font-size: 38px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>
+                            </div>
+                            <h3 style="color: #333; font-weight: bold; margin-bottom: 15px; text-align: center;">{{ .name | markdownify }}</h3>
+                            <p style="color: #666; line-height: 1.6; flex-grow: 1;">{{ .description | markdownify }}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }} 
