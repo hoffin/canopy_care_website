@@ -267,7 +267,7 @@ id = "G-RDJLRWL8VE"
     enable = true
     cols = 4
     title = "Why Choose Us"
-    subtitle = "Choose Canopy Care for reliable, professional tree services"
+    # subtitle = "Choose Canopy Care for reliable, professional tree services"
     # Items are defined in data/why_work_with_us/
 
 [params.emergency_callout]
