@@ -121,7 +121,7 @@ Here are some examples of our hedge trimming work, showcasing the transformation
     {{< before-image src="/img/before-after/2/61703bc9d3f40-1634745289.jpg" >}}
     {{< after-image src="/img/before-after/2/61703bd588c6f-1634745301.jpg" >}}
     
-    {{< before-image src="/img/before-after/4/6161eb113f78d-1633807121.jpg" >}}
+    {{< before-image src="/img/before-after/4/6161eb03cae18-1633807107.jpg" >}}
     {{< after-image src="/img/before-after/4/6161eb174ed22-1633807127.jpg" >}}
     
     {{< before-image src="/img/before-after/6/64bbae51714d6-1690021457.jpg" >}}
