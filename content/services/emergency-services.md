@@ -9,6 +9,8 @@ menu:
     weight: 5
 ---
 
+{{< cta-phone phone="01483 904 954" text="Call Our Emergency Line: 01483 904 954" >}}
+
 # Emergency Tree Services
 
 When severe weather strikes or trees become hazardous unexpectedly, Canopy Care provides rapid response emergency tree services to address dangerous situations quickly and safely.
