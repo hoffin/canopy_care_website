@@ -30,6 +30,11 @@ Crown thinning reduces the density of a tree's foliage without altering its size
 - Improved air circulation to reduce disease risk
 - Enhanced visibility of the tree's branch structure
 
+{{< before-after-comparison >}}
+    {{< before-image src="/img/before-after/3/6460f02689285-1684074534.jpg" >}}
+    {{< after-image src="/img/before-after/3/6460f030102e5-1684074544.jpg" >}}
+{{< /before-after-comparison >}}
+
 ### Deadwood Removal
 Removing dead, dying, or diseased branches is crucial for:
 - Preventing the spread of disease to healthy parts of the tree
@@ -50,6 +55,11 @@ For young or specific ornamental trees, we offer specialized pruning techniques 
 - Establish strong branch structures
 - Manage tree size in restricted spaces
 - Rejuvenate older trees
+
+{{< before-after-comparison >}}
+    {{< before-image src="/img/before-after/8/647a1f33a1214-1685724979.jpg" >}}
+    {{< after-image src="/img/before-after/8/647a1f4884ecf-1685725000.jpg" >}}
+{{< /before-after-comparison >}}
 
 ## Why Choose Canopy Care for Tree Surgery?
 
