@@ -113,7 +113,7 @@ Different hedges benefit from trimming at specific times:
 
 Our experts will advise on the optimal schedule for your specific hedges.
 
-## Before and After Examples
+## Hedge Trimming Transformations
 
 Here are some examples of our hedge trimming work, showcasing the transformation from overgrown to professionally maintained hedges:
 
@@ -127,8 +127,8 @@ Here are some examples of our hedge trimming work, showcasing the transformation
     {{< before-image src="/img/before-after/6/64bbae51714d6-1690021457.jpg" >}}
     {{< after-image src="/img/before-after/6/64bbae5a7eb34-1690021466.jpg" >}}
     
-    {{< before-image src="/img/before-after/7/613e682f024ae-1631479855.jpg" >}}
-    {{< after-image src="/img/before-after/7/613e684216363-1631479874.jpg" >}}
+    {{< before-image src="/img/before-after/7/613e68380335c-1631479864.jpg" >}}
+    {{< after-image src="/img/before-after/7/613e685dab801-1631479901.jpg" >}}
     
     {{< before-image src="/img/before-after/9/6148f7a6521f7-1632171942.jpg" >}}
     {{< after-image src="/img/before-after/9/6148f7d0dbc0d-1632171984.jpg" >}}
