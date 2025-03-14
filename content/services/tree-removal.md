@@ -81,6 +81,18 @@ We're committed to environmental sustainability in our tree removal practices:
 - We minimize impact on surrounding vegetation and wildlife
 - We use low-impact equipment when feasible
 
+{{< before-after-comparison class="tree-removal-page" >}}
+    {{< before-image src="/img/before-after/12/647b12b19f71b-1685787313.jpg" >}}
+    {{< after-image src="/img/before-after/12/647b12b75ee13-1685787319.jpg" >}}
+    
+    {{< before-image src="/img/before-after/16/644929953f8c0-1682516373.jpg" >}}
+    {{< after-image src="/img/before-after/16/644929aa30f10-1682516394.jpg" >}}
+    
+    {{< before-image src="/img/before-after/1/61732afe21a38-1634937598.jpg" >}}
+    {{< after-image src="/img/before-after/1/61732b046b1f1-1634937604.jpg" >}}
+
+{{< /before-after-comparison >}}
+
 ## Need a Tree Removed Safely and Professionally?
 
 {{< cta-button text="Request a Free Quotation" url="/contact/" >}}
