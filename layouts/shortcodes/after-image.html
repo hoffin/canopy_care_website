@@ -1,0 +1,10 @@
+<div class="after-image-container">
+    <div class="image-label">After</div>
+    <img src="{{ .Get "src" }}" alt="After" loading="lazy">
+</div>
+
+{{ if .Parent.Scratch.Get "before-after-pair-started" }}
+</div>
+</div>
+{{ .Parent.Scratch.Set "before-after-pair-started" false }}
+{{ end }} 

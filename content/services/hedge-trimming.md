@@ -113,6 +113,33 @@ Different hedges benefit from trimming at specific times:
 
 Our experts will advise on the optimal schedule for your specific hedges.
 
+## Before and After Examples
+
+Here are some examples of our hedge trimming work, showcasing the transformation from overgrown to professionally maintained hedges:
+
+{{< before-after-comparison >}}
+    {{< before-image src="/img/before-after/2/61703bc9d3f40-1634745289.jpg" >}}
+    {{< after-image src="/img/before-after/2/61703bd588c6f-1634745301.jpg" >}}
+    
+    {{< before-image src="/img/before-after/4/6161eb113f78d-1633807121.jpg" >}}
+    {{< after-image src="/img/before-after/4/6161eb174ed22-1633807127.jpg" >}}
+    
+    {{< before-image src="/img/before-after/6/64bbae51714d6-1690021457.jpg" >}}
+    {{< after-image src="/img/before-after/6/64bbae5a7eb34-1690021466.jpg" >}}
+    
+    {{< before-image src="/img/before-after/7/613e682f024ae-1631479855.jpg" >}}
+    {{< after-image src="/img/before-after/7/613e684216363-1631479874.jpg" >}}
+    
+    {{< before-image src="/img/before-after/9/6148f7a6521f7-1632171942.jpg" >}}
+    {{< after-image src="/img/before-after/9/6148f7d0dbc0d-1632171984.jpg" >}}
+    
+    {{< before-image src="/img/before-after/10/61feb43823371-1644082232.jpg" >}}
+    {{< after-image src="/img/before-after/10/61feb4470effa-1644082247.jpg" >}}
+    
+    {{< before-image src="/img/before-after/11/64bbae2d96bd6-1690021421.jpg" >}}
+    {{< after-image src="/img/before-after/11/64bbae3e2ffca-1690021438.jpg" >}}
+{{< /before-after-comparison >}}
+
 ## Want Beautiful, Well-Maintained Hedges?
 
 {{< cta-button text="Request a Free Quotation" url="/contact/" >}}

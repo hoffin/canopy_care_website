@@ -1,0 +1,10 @@
+{{ if not (.Parent.Scratch.Get "before-after-pair-started") }}
+<div class="before-after-pair">
+<div class="before-after-inner">
+{{ .Parent.Scratch.Set "before-after-pair-started" true }}
+{{ end }}
+
+<div class="before-image-container">
+    <div class="image-label">Before</div>
+    <img src="{{ .Get "src" }}" alt="Before" loading="lazy">
+</div> 
