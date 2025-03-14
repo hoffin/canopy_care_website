@@ -273,3 +273,186 @@
         padding: 50px 0;
     }
 }
+
+/* Hedge Gallery Styling */
+.hedge-gallery {
+    margin: 40px 0;
+}
+
+.before-after-pair {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    border: 1px solid #eaeff3;
+}
+
+.work-example {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    border: 1px solid #eaeff3;
+}
+
+.before-after-pair h4, .work-example h4 {
+    color: #38a7bb;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-comparison-inline, .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.comparison-item, .gallery-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Modified gallery item for 3-image layout */
+.three-images .gallery-item {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+
+.image-label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 2;
+    letter-spacing: 0.5px;
+}
+
+.comparison-item:first-child .image-label {
+    background-color: #f0ad4e;
+}
+
+.comparison-item:last-child .image-label {
+    background-color: #5cb85c;
+}
+
+.comparison-item img, .gallery-item img {
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.comparison-item img:hover, .gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 767px) {
+    .comparison-item, .gallery-item,
+    .three-images .gallery-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .before-after-pair, .work-example {
+        padding: 15px;
+    }
+}
+
+/* For medium screens, three images go to two rows (2+1) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .three-images .gallery-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .three-images .gallery-item:last-child {
+        margin-left: 25%;
+    }
+}
+
+/* Gallery container styling */
+.gallery-container {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    border: 1px solid #eaeff3;
+    margin-bottom: 40px;
+}
+
+.gallery-container h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.gallery-container p {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Gallery image styling */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -5px;
+}
+
+.gallery-image {
+    flex: 0 0 32%;
+    margin: 0 0 20px 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.gallery-image img {
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+}
+
+.gallery-image img:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .gallery-image {
+        flex: 0 0 48%;
+    }
+    
+    .gallery-image:last-child:nth-child(odd) {
+        flex: 0 0 48%;
+        margin-left: 26%; /* Center the last image if there's an odd number */
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-image, 
+    .gallery-image:last-child:nth-child(odd) {
+        flex: 0 0 100%;
+        margin-left: 0;
+    }
+    
+    .gallery-container {
+        padding: 15px;
+    }
+}

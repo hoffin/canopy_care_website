@@ -1,0 +1,15 @@
+<div class="gallery-container">
+    <h2>{{ .Get "title" }}</h2>
+    <div class="image-gallery">
+        {{ $images := slice }}
+        {{ with .Get "images" }}
+            {{ $images = split (trim . "[]") "," }}
+        {{ end }}
+        {{ range $images }}
+            <figure class="gallery-image">
+                <img src="{{ trim . "' " }}" alt="Hedge trimming example" class="img-responsive">
+            </figure>
+        {{ end }}
+    </div>
+    <p>{{ .Get "caption" }}</p>
+</div> 

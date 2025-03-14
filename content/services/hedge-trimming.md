@@ -38,6 +38,12 @@ For newly planted hedges, we provide formative trimming to:
 - Promote dense growth from the base
 - Create strong, healthy hedges that will thrive for years
 
+{{< hedge-gallery 
+    title="Examples of our hedge trimming services" 
+    images="['/img/before-after/13/61894c93d3aef-1636387987.jpg', '/img/before-after/13/61894c9eaccc0-1636387998.jpg', '/img/before-after/13/61894ca506212-1636388005.jpg']" 
+    caption="Our expert team delivers professional hedge services including boundary maintenance, restoration, and precise shaping to create beautiful, healthy hedges." 
+>}}
+
 ## Types of Hedges We Maintain
 
 We work with all varieties of hedging plants, including:
@@ -47,6 +53,7 @@ We work with all varieties of hedging plants, including:
 - **Native Mixed Hedges**: Combining species like Hawthorn, Blackthorn, Hazel, and Field Maple
 - **Tall Screening Hedges**: Thuja, Leylandii, Laurel, and Bamboo
 - **Specialty Hedges**: Box parterre, Cloud-pruned specimens, and Topiary
+
 
 ## Our Hedge Trimming Process
 
