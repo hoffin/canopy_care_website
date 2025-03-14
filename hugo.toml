@@ -256,6 +256,14 @@ id = "G-RDJLRWL8VE"
     slide_speed = 200
     pagination_speed = 1000
 
+[params.beforeAfterHomepage]
+    # Before and After items are defined in 'data/before_after/'
+    enable = true
+    title = "Before & After Gallery"
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
 [params.features]
     enable = true
     cols = 3 # Default: 3, Available values 2,3,4,6
