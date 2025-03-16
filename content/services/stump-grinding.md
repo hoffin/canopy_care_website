@@ -13,6 +13,8 @@ menu:
 
 After a tree has been removed, the stump and root system often remain in the ground. Canopy Care provides expert stump grinding services to completely remove these remnants, freeing up your space and preventing potential issues.
 
+{{< youtube niZnJdlKlTQ >}}
+
 ## Why Remove Tree Stumps?
 
 Tree stumps can cause various problems if left in place:
